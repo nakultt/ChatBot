@@ -11,18 +11,21 @@ body {
 
 .chat {
     background-color: rgb(133, 197, 183);
-    width: 100%;
+    max-width: 600px;
     height: 60px;
     padding: 7px;
     border-radius: 30px;
     border: 2px solid #000000;
     margin-top: 40px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
+    position: relative;
 }
 
 #box {
-    width: 65%;
+    width: calc(100% - 100px);
     height: 40px;
     border-radius: 20px;
     padding: 0 15px;
@@ -31,12 +34,13 @@ body {
 }
 
 #button {
-    width: 20%;
+    position: absolute;
+    right: 10px;
+    width: 60px;
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 10px;
 }
 
 #button:hover {
@@ -48,7 +52,9 @@ body {
     padding: 10px;
     height: 500px;
     border-radius: 30px;
-    width: 100%;
+    max-width: 1000px;
     overflow-y: auto;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
