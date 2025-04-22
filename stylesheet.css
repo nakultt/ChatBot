@@ -1,7 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background: #e0fafa;
-    box-sizing: border-box;
     margin: 50px;
 }
 
@@ -41,10 +40,11 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
+    border: 1px solid #000000;
 }
 
 #button:hover {
-    background-color: #45a049;
+    background-color: #56be5b;
 }
 
 .answer {
