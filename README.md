@@ -1,5 +1,7 @@
 # ChatBot
 
+VISIT : https://nakultt.github.io/ChatBot/
+
 ChatBot is a project designed to provide interactive and intelligent conversational experiences using web technologies.
 
 ## Features
@@ -8,4 +10,3 @@ ChatBot is a project designed to provide interactive and intelligent conversatio
 - **Customizable Design**: Easily modify and style the chatbot to fit your needs.
 - **Web-Based**: Built using JavaScript, CSS, and HTML for seamless integration into web applications.
 
-VISIT : https://nakultt.github.io/ChatBot/
