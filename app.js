@@ -1,4 +1,4 @@
-const encryptedApiKey = "4GKPfk6VbWrmpxiGZtMtR5bLYxpL1YRTC/szPhMjFIVBRbWme6P1IkOj9VJa40UXSPgn3yYLD9ikmnkAokUs4i4jjKnvUSlpxwmdnAUD7HI="; 
+const encryptedApiKey = "U2FsdGVkX19pxsfpNTq3ETfSn/hCfA4qD0vwR/red/Mr4BPugzj8t8N2B6hTCRQFbmOd9M6+Ix3oQOY1qiN78g=="; 
 function decryptApiKey(encryptedKey, passphrase) {
     try {
         return CryptoJS.AES.decrypt(encryptedKey, passphrase).toString(CryptoJS.enc.Utf8);
